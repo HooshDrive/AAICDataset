@@ -1,6 +1,6 @@
 # AAIC Dataset
-Dataset for 2D Object Detection in Autonomous Vehicles
-This is the first 2D object detection dataset for self-driving cars prepared in Iran, as far as we know. This was made initially for the [AAIC](https://aaic.aut.ac.ir/) competitions, which are currently underway and will be completed gradually.
+Dataset for 2D Object Detection in Autonomous Vehicles.  
+This is the first 2D object detection dataset for self-driving cars prepared in Iran, as far as we know. This was made originally for the [AAIC](https://aaic.aut.ac.ir/) competitions, which are currently underway, and will be completed gradually.
 ## Dataset Description
 There are 1240 training images and 475 test images in the dataset, some of which will not be published until the AAIC deadline. Labels include
 car, 
@@ -15,7 +15,7 @@ described in detail below.
 ### Labeling Specifications
 With a few changes (including increasing the number of classes), we followed the [Wimo database labeling specifications](https://github.com/waymo-research/waymo-open-dataset/blob/master/docs/labeling_specifications.md).
 #### Vehicle labeling instructions (cars, trucks and buses)
-1) The bounding box includes: side mirrors, but excludes small protruding parts such as antenna, flag, etc. Bounding box also excludes open doors of vehicle
+1) The bounding box includes side mirrors, but excludes small protruding parts such as antenna, flag, etc. Bounding box also excludes open doors of vehicle
 2) Reflections of vehicles in the mirror or the body of other vehicles are not labeled.
 3) Visible objects through vehicles windows are labeled.
 #### Pedestrians labeling instructions
