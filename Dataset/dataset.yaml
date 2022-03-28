@@ -1,0 +1,11 @@
+names:
+- car
+- signal
+- signs
+- motorcycle
+- pedestrian
+- truck
+- bus
+- bicycle
+nc: 8
+val: .\images\val\
