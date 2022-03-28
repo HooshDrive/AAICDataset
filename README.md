@@ -46,6 +46,7 @@ Each text file is similar to the following:
 
 1 0.563542 0.559766 0.007292 0.030469
 
-Each row represents an object in the corresponding image. The first number is the ID of the object class, which corresponds to the order of the classes in the dataset.yml file. The following four numbers in each row represent the x coordinates, y coordinates, width, and height of the object bounding box, respectively, normalized to image dimensions. 
+Each row represents an object in the corresponding image. The first number is the ID of the object class, which corresponds to the order of the classes in the dataset.yml file. The following four numbers in each row represent the x coordinates, y coordinates, width, and height of the object bounding box, respectively, normalized to image dimensions.
 
+![sample image](sample.png)
 
