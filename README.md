@@ -34,16 +34,11 @@ With a few changes (including increasing the number of classes), we followed the
 The dataset is provided in the standard YOLOv5 format. General information about the dataset is provided in the dataset.yml file. Each image in the images/train path has a text file of the same name in the labels/train path that contains the annotaions of the objects associated with that image.
 Each text file is similar to the following:
 
-0 0.146094 0.724219 0.060937 0.064062
-
-0 0.841667 0.806641 0.316667 0.386719
-
-4 0.459375 0.723047 0.011458 0.019531
-
-4 0.259115 0.718359 0.021354 0.060156
-
-1 0.518229 0.559375 0.007292 0.031250
-
+0 0.146094 0.724219 0.060937 0.064062  
+0 0.841667 0.806641 0.316667 0.386719  
+4 0.459375 0.723047 0.011458 0.019531  
+4 0.259115 0.718359 0.021354 0.060156  
+1 0.518229 0.559375 0.007292 0.031250  
 1 0.563542 0.559766 0.007292 0.030469
 
 Each row represents an object in the corresponding image. The first number is the ID of the object class, which corresponds to the order of the classes in the dataset.yml file. The following four numbers in each row represent the x coordinates, y coordinates, width, and height of the object bounding box, respectively, normalized to image dimensions.
