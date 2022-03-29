@@ -13,7 +13,7 @@ bus,
 and bicycle 
 described in detail below.
 ### Labeling Specifications
-With a few changes (including increasing the number of classes), we followed the [Wimo database labeling specifications](https://github.com/waymo-research/waymo-open-dataset/blob/master/docs/labeling_specifications.md).
+With a few changes (including increasing the number of classes), we followed the [Waymo database labeling specifications](https://github.com/waymo-research/waymo-open-dataset/blob/master/docs/labeling_specifications.md).
 #### Vehicle labeling instructions (cars, trucks and buses)
 1) The bounding box includes side mirrors, but excludes small protruding parts such as antenna, flag, etc. Bounding box also excludes open doors of vehicle
 2) Reflections of vehicles in the mirror or the body of other vehicles are not labeled.
