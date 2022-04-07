@@ -1,6 +1,6 @@
 # AAIC Dataset
 Dataset for 2D Object Detection in Autonomous Vehicles.  
-This is the first 2D object detection dataset for self-driving cars prepared in Iran, as far as we know. This was made originally for the [AAIC](https://aaic.aut.ac.ir/) competitions, which are currently underway, and will be completed gradually.
+This is the first 2D object detection dataset for self-driving cars prepared in Iran, as far as we know. AAIC Dataset will be completed gradually.
 ## Dataset Description
 There are 1240 training images and 475 test images in the dataset, some of which will not be published until the AAIC deadline. Labels include
 car, 
